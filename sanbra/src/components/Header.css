@@ -1,0 +1,42 @@
+/* Header.css */
+.header-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contenedor-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .imagen-con-texto {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center; /* Añadimos alineación de texto al centro */
+  }
+  
+  .imagen-con-texto .producto-imagen {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Evita el espacio en blanco debajo de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+  }
+  
+  .descripcion {
+    text-align: center;
+  }
+  
+  .descripcion h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .descripcion p {
+    margin: 0;
+  }
+  
